@@ -4,6 +4,8 @@ This note documents my learnigns from experimentation with the Eclipse Mosquitto
 ## Learnings
 The environment I used was my early 2015 Macbook Air running macOS Big Sur (11.5.2)
 
+hello
+
 I run Mosquitto from Docker on my laptop. Docker is a nice way to isolate services and technologies so I can run them on my dev machine without polutting the machine with dependencies and requirements of something I am just playing around with and will want cleanly removed from my computer when I am done. Docker is the bomb! If you don't know about it you should learn it here: [Docker](https://www.docker.com)
 
 So, with that being said....
