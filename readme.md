@@ -1,4 +1,8 @@
-The below commands were run on a 2015 Macbook Air
+# Experiment with Eclipse Mosquitto MQTT broker
+This note documents my learnigns from experimentation with the Eclipse Mosquitto MQTT broker service. I was interested in experimenting with this service as the solution for a notification system that could be used to send notifications to devices in my home network such as the numerous Raspberry PI's I own plus a few other different types of devices. MQTT is a common IoT protocol used for such notifications and thus I was interested in learning more about the protocol and various server and client side implementations of it.
+
+## Learnings
+The environment I used was my early 2015 Macbook Air running macOS Big Sur (11.5.2)
 
 I run Mosquitto from Docker on my laptop. Docker is a nice way to isolate services and technologies so I can run them on my dev machine without polutting the machine with dependencies and requirements of something I am just playing around with and will want cleanly removed from my computer when I am done. Docker is the bomb! If you don't know about it you should learn it here: [Docker](https://www.docker.com)
 
@@ -16,7 +20,6 @@ Create a config file here:
 ~/code/mqtt/mosquitto/config/mosquitto.conf
 
 ```
-
 The contents of the mosquitto.conf file look like this:
 ```
 persistence true
